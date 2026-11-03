@@ -61,9 +61,10 @@ Before writting any new code or make changes, always pull the latest updates fro
 git pull origin main
 ```
 2. Editing the code
+
 Only edit the files inside the src(c++) and script(python) folders using whatever coding program you are using
 
-3. Saving locally
+4. Saving locally
 
 When committing write a message of what you change (e.g "Revised movement codee")
 ```bash
