@@ -1,7 +1,10 @@
-/*
+# ROS / Catkin build artifacts
+/build/
+/devel/
+/.catkin_workspace
 
-!/src/
-!/scripts/
-
-!/src/**
-!/scripts/**
+# IDE / OS junk
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
