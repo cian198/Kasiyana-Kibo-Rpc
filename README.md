@@ -1,5 +1,6 @@
 # Krpc7th-Group-1
 How to install and use workspace repository
+Ignore everything except src, scripts and README
 
 # Installation
 We'll install it using a pre-built image (on my hard drive) instead of the processes listed on the programming Manual pdf so it will be faster 
