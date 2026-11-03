@@ -82,12 +82,19 @@ git push origin main
 ```
 👍👍👍
 
-## Where to find the scripts
+## Where to find the scripts:
 
-Run the lines 1 by 1
+Run the lines 1 by 1 in Ubuntu
 ```bash
 cd
 cd ~/krpc/krpc7th-simulator/users/catkin_ws/src/krpc_user
 explorer.exe .
 ```
 Then open src (if you wanna code in c++) or open scripts (if you wanna code in python)
+
+## How to run simulator: 
+```bash
+cd ~/krpc/krpc7th-simulator
+bash ./simulation.sh
+```
+Go to a web browser and type localhost
