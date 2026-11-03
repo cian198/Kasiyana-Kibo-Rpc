@@ -44,6 +44,8 @@ cat ~/.ssh/id_ed25519.pub
 5. Give it any title you like, set Key type to Authentication Key, paste your key into the Key field, and click Add SSH key.
 6. Verify connection
 ```bash
+cd
+cd ~/krpc/krpc7th-simulator/users/catkin_ws/src/krpc_user
 ssh -T git@github.com
 ```
 If ever prompted with "Are you sure you want to continue connecting (yes/no/[fingerprint])?"
@@ -58,6 +60,8 @@ type yes and press Enter.
 1. Pull the latest changes from GitHub
 Before writting any new code or make changes, always pull the latest updates from github to ensure your local workspace is up to date:
 ```bash
+cd
+cd ~/krpc/krpc7th-simulator/users/catkin_ws/src/krpc_user
 git pull origin main
 ```
 2. Editing the code
@@ -77,3 +81,13 @@ git commit -m "Revised movement code"
 git push origin main
 ```
 👍👍👍
+
+## Where to find the scripts
+
+Run the lines 1 by 1
+```bash
+cd
+cd ~/krpc/krpc7th-simulator/users/catkin_ws/src/krpc_user
+explorer.exe .
+```
+Then open src (if you wanna code in c++) or open scripts (if you wanna code in python)
