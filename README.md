@@ -19,7 +19,7 @@ We'll install it using a pre-built image (on my hard drive) instead of the proce
 <br>
 <br>
 
-## How to use git 
+# How to use git 
 In order to update our code online collaboratively we use github/git, think of it as a shared google doc but for files and codes 👍
 
 ### Step 1: Making a SSH Key
