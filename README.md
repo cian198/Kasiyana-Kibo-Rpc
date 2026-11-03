@@ -100,6 +100,3 @@ cd ~/krpc/krpc7th-simulator
 bash ./simulation.sh
 ```
 Go to a web browser and type localhost
-
-
-docker load --input intball-simulator.tar
