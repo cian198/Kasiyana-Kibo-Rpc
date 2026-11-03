@@ -13,42 +13,66 @@ We'll install it using a pre-built image (on my hard drive) instead of the proce
    
     * Specs of the laptop should be at least 4+ cores, 16gb+ ram, and have free storage of about 15gb
 
-_Windows icon + R and type msinfo32, to see specs_
+### Windows icon + R and type msinfo32, to see specs
+<br>
+<br>
+<br>
+<br>
 
----
+## How to use git 
+In order to update our code online collaboratively we use github/git, think of it as a shared google doc but for files and codes 👍
 
-## How to use git (This is so our workspace/files/codes are all in one place and shared)
-
-### Step 1: Generate your Personal Access Token (PAT)
-GitHub requires a **Personal Access Token (PAT)** instead of your account password to push code from the terminal.
-
-1. Log in to Github
-2. Click your **profile picture** (top-right) -> **Settings**.
-3. Scroll down the left sidebar and click **Developer settings**.
-4. Click **Personal access tokens** -> **Tokens (classic)**.
-5. Click **Generate new token** -> **Generate new token (classic)**.
-6. Enter a Note (e.g., `any name`), select an `no expiration date`, and check the **`repo`** checkbox.
-7. Scroll to the bottom and click **Generate token**.
-8. Copy the token (the one that starts with gph_) and save it somewhere you can easily copy and paste later.
-
----
-
-### Step 2: Link The Existing Folder to GitHub
-Open ubuntu and run:
-_Paste the lines 1 by 1_
+### Step 1: Making a SSH Key
+1. Make a github account
+2. Open **Ubuntu** using windows search
+3. Copy paste the command
 ```bash
-cd ~/krpc/krpc7th-simulator/users
-
-git init
-
-git remote add origin [https://github.com/cian198/Krpc7th-Group-1.git](https://github.com/cian198/Krpc7th-Group-1.git)
+# Replace the "your_email@gmail.com" with your actual email you used for github
+ssh-keygen -t ed25519 -C your_email@gmail.com
 ```
+4. Press enter when asked for a directory
+5. Enter a passphrase (aka any password)
+6. Copy paste the command, this will show the SSH Key
+```bash
+cat ~/.ssh/id_ed25519.pub
+```
+### Setting SSH Key in github
+1. Copy the entire line printed on the screen (starting with ssh-ed25519 up to your email).
+2. Go to GitHub.com -> Click your profile picture -> Settings.
+3. In the left sidebar, click SSH and GPG keys.
+4. Click New SSH key.
+5. Give it any title you like, set Key type to Authentication Key, paste your key into the Key field, and click Add SSH key.
+6. Verify connection
+```bash
+ssh -T git@github.com
+```
+If ever prompted with "Are you sure you want to continue connecting (yes/no/[fingerprint])?"
 
-### Step 3: Updating the files online with the code you've edited/made on your laptop
+type yes and press Enter.
+<br>
+<br>
+<br>
+<br>
+
+### How to actually edit the codes
+1. Pull the latest changes from GitHub
+Before writting any new code or make changes, always pull the latest updates from github to ensure your local workspace is up to date:
+```bash
+git pull origin main
+```
+2. Editing the code
+Only edit the files inside the src(c++) and script(python) folders using whatever coding program you are using
+
+3. Saving locally
+
+When committing write a message of what you change (e.g "Revised movement codee")
 ```bash
 git add .
-git commit -m "describe what you edited"
-git pull origin main --rebase
-git push -u origin main
+git commit -m "Revised movement code"
 ```
-**If the terminal asks for your password, paste the Token you got from Step 1**
+
+4. Updating the files online
+```bash
+git push origin main
+```
+👍👍👍
