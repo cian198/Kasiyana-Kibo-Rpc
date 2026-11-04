@@ -12,11 +12,12 @@ We'll install it using a pre-built image (on my hard drive) instead of the proce
 **Or if you can install it yourselves using the Programming Manual pdf (it will take about 3hrs)**
 
 ### Pre-built installation
-1. Bring me your laptop face to face and I'll install it 😁
+1. Bring me your laptop face to face and me and brei will install it 😁
    
-    * Specs of the laptop should be at least 4+ cores, 16gb+ ram, and have free storage of about 15gb
-
+    * Specs of the laptop(Windows) should be at least 4+ cores, 16gb+ ram, and have free storage of about 15gb
+    * Specs of the laptop(Mac) should be at least 4+ cores, 8gb+ ram, and have free storage
 ### Windows icon + R and type msinfo32, to see specs
+### To check specs for macs.. idk never touched one
 <br>
 <br>
 <br>
