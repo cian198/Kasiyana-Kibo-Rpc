@@ -7,6 +7,7 @@ Ignore everything except src, scripts and README on the list above
 We'll install it using a pre-built image (on my hard drive) instead of the processes listed on the programming Manual pdf so it will be faster 
 * Won't get limited by school wifi
 * Since its pre-built, installation will be faster and easier and won't require a couple hours to built/install
+* If its a mac, it has to be manually installed (Just ask me and brei for help 👍)
 
 **Or if you can install it yourselves using the Programming Manual pdf (it will take about 3hrs)**
 
